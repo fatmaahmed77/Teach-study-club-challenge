@@ -1,0 +1,133 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #001829;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  font-family: "Orbitron", sans-serif;
+}
+.main-txt {
+  font-family: "Orbitron", sans-serif;
+  font-size: 30px;
+}
+.normal-txt {
+  font-family: "Matangi", sans-serif;
+  font-size: 20px;
+}
+.logo {
+  width: 15%;
+  height: auto;
+}
+.logo:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+.header-links a {
+  color: white;
+  padding: 0px 15px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+.header-links a:hover {
+  color: #ffc3a0;
+  background-color: #000c15;
+}
+.landing-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #001829;
+  padding: 25px;
+  margin: 0px;
+}
+.landing-image {
+  width: 750px;
+  height: 350px;
+  border-radius: 50px 50px 50px 50px;
+  padding: 0px 0px 0px 15px;
+}
+.landing-image:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+.landing-page-txt {
+  color: #ffffff;
+}
+.landing-page-txt:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+.content {
+  padding: 20px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.c-centre {
+  display: flex;
+  justify-content: center;
+}
+.effect:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+.gallary-btn {
+  background-color: #000c15;
+  color: #ffc3a0;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-family: "Orbitron", sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-self: center;
+  margin: 10px;
+}
+.gallary-btn:hover {
+  background-color: #ffc3a0;
+  color: #000c15;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+.G-I {
+  border-radius: 20px;
+  width: 185px;
+  height: 185px;
+  gap: 20px;
+  padding: 20px;
+}
+.G-I:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.cards {
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 15px;
+  color: #ffc3a0;
+  background-color: #000c15;
+}
+.footer {
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  font-family: "Orbitron", sans-serif;
+}
